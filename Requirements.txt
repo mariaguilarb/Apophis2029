@@ -1,0 +1,8 @@
+pymcel 
+numpy 
+scipy
+matplotlib
+pandas
+rebound
+nbformat
+celluloid
