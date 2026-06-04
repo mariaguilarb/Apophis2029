@@ -27,6 +27,7 @@
 - Nota de ritmo de commits (promedio): 4.50 / 5.0
 
 Interpretación breve: Ritmo muy constante y sostenible durante el semestre.
+
 ## Retroalimentación
 
 - Archivo revisado: Estudio Dinamico Apophis en 2029.ipynb
@@ -37,10 +38,16 @@ Interpretación breve: Ritmo muy constante y sostenible durante el semestre.
 - Se aplican varias estrategias de modelado/validación y no un único experimento.
 - Hay secciones de metodología/resultados con interpretación de hallazgos.
 - La mayoria de celdas de código están contextualizadas con texto explicativo previo.
+- Muy bien por incluir una sección de conclusiones.
 
 ### Aspectos por mejorar
 
 - Hay celdas de código muy largas; se recomienda modularizar en funciones y dividir bloques extensos.
+- Mala aplicación del teorema del virial: el teorema del virial se aplica a todo un sistema, no solamente a una partícula.
+- Si haces la integración comenzando el día de paso por el punto de máxima aproximación, por supuesto que te da que ese día es el mínimo: la idea de los experimentos es buscar el día y la hora y si no da investigar por qué.
+- La visualización de la órbita de Apophis tiene la inclinación exagerada.
+- Bien por el cálculo con la solución al problema de los dos cuerpos, pero no hay en ese cálculo una determinación de la mínima distancia entre el asteroide y la Tierra.
+- Bien por el cálculo de la constante de Jacobi, pero podrías aprovechar para calcular la trayectoria en el sistema rotante con base en la velocidad y posición calculada con la transformación.
 
 ### Valoración global
 
